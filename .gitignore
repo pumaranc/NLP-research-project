@@ -1,0 +1,13 @@
+/.venv
+main.py
+sfarim.csv
+classifiers
+vectors.pkl
+vectors
+images
+classifier_plots.pdf
+classifier_metrics.csv
+__pycache__/
+.vscode/launch.json
+vectors/
+

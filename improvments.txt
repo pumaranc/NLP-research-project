@@ -1,0 +1,13 @@
+Preprocessing: Depending on the nature of your documents, you might need to do some preprocessing like removing stop words, stemming, lemmatization, etc. You've already included some of this in your generate_vector function.
+
+Cross-validation: Instead of splitting the data into training and test sets only once, you can use cross-validation to get a better estimate of the model performance.
+
+Hyperparameter tuning: Most classifiers have hyperparameters that you can tune to improve the performance. You can use Grid Search or Random Search for hyperparameter tuning.
+
+Evaluation metrics: Accuracy is a common metric for evaluating classifiers, but it might not be the best metric if your classes are imbalanced. You might want to consider other metrics like precision, recall, F1 score, ROC AUC, etc.
+
+Class imbalance: If your classes are imbalanced, you might want to consider techniques like oversampling the minority class, undersampling the majority class, or using a combination of both.
+
+Feature importance: After training the classifier, you can check the importance of each feature (in your case, the elements of the BERT vectors). This can give you some insight into what the classifier is learning.
+
+Error analysis: After evaluating the classifier, you can analyze the documents that were misclassified to understand where the classifier is making mistakes and how you can improve it.
